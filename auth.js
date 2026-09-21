@@ -10,6 +10,7 @@ function login(username, password) {
   }
 
   // Kiem tra thong tin dang nhap
+  // Experiment: verify the smoke test quality gate
   return username === 'admin' && password === '123';
 }
 
