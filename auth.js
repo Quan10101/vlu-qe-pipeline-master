@@ -1,3 +1,4 @@
+// Feature update: improve login documentation
 function login(username, password) {
   if (!username || !password) {
     return false;
