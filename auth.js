@@ -10,7 +10,8 @@ function login(username, password) {
   }
 
   // Kiem tra thong tin dang nhap
-  return username === 'admin' && password === '123';
+  // Experiment: verify the smoke test quality gate
+  return username === 'admin' && password === '9999';
 }
 
 module.exports = { login };
